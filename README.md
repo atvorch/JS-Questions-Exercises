@@ -1,6 +1,9 @@
 # JS-Questions-Exercises
 JS Questions &amp; Exercises
 
+## Источники
+@ [37 Essential JavaScript Interview Questions *](https://www.toptal.com/javascript/interview-questions)
+
 ## Вопросы
 
 1. What will the code below output to the console and why?
@@ -23,7 +26,7 @@ function greet(person) {
 }
 greet({ name: 'amy' })
 ```
-1. Consider the two functions below. Will they both return the same thing? Why or why not?
+3. Consider the two functions below. Will they both return the same thing? Why or why not?
 ```javascript
 function foo1()
 {
@@ -40,6 +43,8 @@ function foo2()
   };
 }
 ```
+4. What is NaN? What is its type? How can you reliably test if a value is equal to NaN?
+5. What will the code below output to the console and why?
 ## Задания
 1. Реализуйте функцию isPrime(), которая возвращает true или false, указывая, является ли переданное ей число простым.
 ```javascript
