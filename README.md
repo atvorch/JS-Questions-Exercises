@@ -12,6 +12,17 @@ JS Questions &amp; Exercises
 console.log("a defined? " + (typeof a !== 'undefined'));
 console.log("b defined? " + (typeof b !== 'undefined'));
 ```
+2. Необходимо, чтобы этот код выводил в лог hey amy, но он выводит hey arnold. Почему?
+```javascript
+function greet(person) {
+  if (person == { name: 'amy' }) {
+    return 'hey amy'
+  } else {
+    return 'hey arnold'
+  }
+}
+greet({ name: 'amy' })
+```
 ## Задания
 2. Реализуйте функцию isPrime(), которая возвращает true или false, указывая, является ли переданное ей число простым.
 ```javascript
@@ -49,8 +60,7 @@ const factorial = num => {
 ```
 4. Реализуйте функцию fib(), возвращающую n-ное число Фибоначчи.
 ```javascript
-const fib = n => n <= 1 ? n : fib(n - 1) + fib(n - 2);
-};
+const fib = n => n <= 1 ? n : fib(n - 1) + fib(n - 2);};
 ```
 1. Реализуйте функцию isSorted(), которая возвращает true или false в зависимости о того, отсортирован ли переданный ей числовой массив.
 1. Создайте собственную реализацию функции filter().
