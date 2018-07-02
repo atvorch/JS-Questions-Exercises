@@ -23,6 +23,23 @@ function greet(person) {
 }
 greet({ name: 'amy' })
 ```
+1. Consider the two functions below. Will they both return the same thing? Why or why not?
+```javascript
+function foo1()
+{
+  return {
+      bar: "hello"
+  };
+}
+
+function foo2()
+{
+  return
+  {
+      bar: "hello"
+  };
+}
+```
 ## Задания
 1. Реализуйте функцию isPrime(), которая возвращает true или false, указывая, является ли переданное ей число простым.
 ```javascript
